@@ -25,4 +25,4 @@ jobs:
       #uruchomienie linta
       - name: Run lint
         run: make lint
-
+        
