@@ -24,3 +24,11 @@ docker_run:	docker_build
 		--name hello-world-printer-dev \
 		-p 5000:5000 \
 		-d hello-world-printer
+
+docker_start:
+	docker start hello-world-printer-dev
+	docker ps
+
+docker_stop:
+	docker stop hello-world-printer-dev
+	docker ps -a
